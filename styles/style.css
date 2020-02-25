@@ -15,7 +15,6 @@
 
 .logo {
   width: 183px;
-  position: absolute;
 }
 
 .header {
@@ -32,6 +31,8 @@
   top: 30px;
   left: 64px;
   height: 32px;
+  z-index: 3;
+  position: absolute;
 }
 
 .header__title {
@@ -41,6 +42,7 @@
   font-weight: bold;
   width: 730px;
   margin-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -64,6 +66,8 @@
   right: 0;
   bottom: 0;
   z-index: 1;
+  width: 765px; 
+  height: 608;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -187,7 +191,6 @@
   position: relative;
   height: 790px;
   background-color: #f2f2f2;
-  z-index: 1;
 }
 
 .feinman__title {
@@ -199,6 +202,7 @@
   font-weight: bold;
   margin-top: 100px;
   margin-bottom: 0;
+  z-index: 2;
 }
 
 .feinman__subtitle {
@@ -208,6 +212,7 @@
   align-self: center;
   text-align: center;
   font-weight: normal;
+  z-index: 2;
 }
 
 .feinman__link {
@@ -227,7 +232,7 @@
   height: 637px;
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 .kaufman {
@@ -280,35 +285,36 @@
   z-index:1 ;
 }
 
-.footer {
+li {
+  list-style-type: none;
+}
+
+  .footer {
 	background-color: #1F1F1F;
   min-height: 350px;
   display: flex;
   justify-content: center;
-  padding-top: 60px ;
-  padding-bottom: 40px;
+  
 }
 
 .footer__columns {
   width: 90%;
   display: flex;
-  justify-content: space-between;
-  position: relative;
-
+  justify-content:space-between;
+  padding-top: 60px ;
+  padding-bottom: 40px;
 }
-
 
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
-  top:0;
-  left:0;
   height: 35px;
+ 
 }
 
 .footer__author {
