@@ -1,4 +1,4 @@
-/*,img, a, section, h1, h2 ,p, h3, h4, h5, h6 {
+/*.img, a, section, h1, h2 ,p, h3, h4, h5, h6 {
   border: 1px solid purple;
 }*/
 
@@ -186,33 +186,31 @@
 }
 
 .feinman {
-  display: flex;
   position: relative;
   height: 790px;
   background-color: #F2F2F2;
-  background-image: url("./images/feinman.png");
+  background-image: url("../images/feinman.png");
   background-size: 867px 637px;
   background-position: bottom left;
+  background-repeat: no-repeat 
 }
 
 .feinman__title {
-  align-self: center;
   width: 648px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin-top: 100px;
-  margin-bottom: 0;
+  margin: auto;
+  padding-top: 100px;
 }
 
 .feinman__subtitle {
   line-height: 51px;
   font-size:36px;
-  margin-top:70px;
-  align-self: center;
   text-align: center;
   font-weight: normal;
+  margin: 70px auto 0;
 }
 
 .feinman__link {
