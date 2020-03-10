@@ -1,0 +1,8 @@
+
+.video__iframe:hover {
+    opacity: .5;
+    -webkit-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+  }
+  
