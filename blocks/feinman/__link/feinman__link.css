@@ -1,17 +1,17 @@
 .feinman__link {
-    position: absolute;
-    top: 50%;
-    right: 48px;
-    line-height: 51px;
-    font-size: 36px;
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
-    opacity: 1.0;
-  }
-    .feinman__link:hover{
-     opacity: .5;
-     -webkit-transition: 1s linear ;
-     -o-transition: 1s linear ;
-     transition: 1s linear ;
-    } 
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  opacity: 1.0;
+}
+.feinman__link:hover {
+  opacity: .5;
+  -webkit-transition: 1s linear ;
+  -o-transition: 1s linear ;
+  transition: 1s linear ;
+} 
