@@ -1,10 +1,10 @@
 .kaufman__triangle {
-    position: absolute;
-    width: 877px;
-    height: 877px;
-    right: -210px;
-    top: 0;
-    z-index: 1;
-    -webkit-animation: kaufman__triangle 20s linear infinite;
-            animation: kaufman__triangle 20s linear infinite;
-  }
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0;
+  z-index: 1;
+  -webkit-animation: kaufman__triangle 20s linear infinite;
+  animation: kaufman__triangle 20s linear infinite;
+}

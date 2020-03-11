@@ -1,14 +1,13 @@
 .header__square-pic {
-    background-color: #2f80ed;
-    height: 568px;
-    width: 568px;
-    position: absolute;
-    right: 0;
-    top: 64px;
-    -webkit-animation: header__square-pic 20s linear infinite;
-            animation: header__square-pic 20s linear infinite;
-    -webkit-transform: rotate(-15deg);
-        -ms-transform: rotate(-15deg);
-            transform: rotate(-15deg);
-  }
-  
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  -webkit-animation: header__square-pic 20s linear infinite;
+  animation: header__square-pic 20s linear infinite;
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}

@@ -1,8 +1,12 @@
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  border: 0;
+}
 
 .video__iframe:hover {
-    opacity: .5;
-    -webkit-transition: 1s linear;
-    -o-transition: 1s linear;
-    transition: 1s linear;
-  }
-  
+  opacity: 0.5;
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
+  transition: 1s linear;
+}

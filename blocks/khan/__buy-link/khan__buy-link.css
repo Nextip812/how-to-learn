@@ -4,13 +4,13 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  opacity: 1.0;
-  vertical-align: top; 
+  opacity: 1;
+  vertical-align: top;
 }
- 
+
 .khan__buy-link:hover {
-  opacity: .5;
-  -webkit-transition: 1s linear ;
-  -o-transition: 1s linear ;
-  transition: 1s linear ;
-} 
+  opacity: 0.5;
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
+  transition: 1s linear;
+}
